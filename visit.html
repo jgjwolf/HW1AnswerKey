@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<!-- Note: this page has 14 bugs -->
+<!-- Note: this page has 11 bugs -->
 <html lang="en">
 <head>
   <!--  TIP 
@@ -7,15 +7,13 @@
   <meta charset="UTF-8">
 
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  	<link rel="icon" href="images/favicon.ico">
+	<link rel="icon" href="images/ann_arbor.ico">
 	<link rel="stylesheet" href="css/reset.css">
-    <!-- bug 1 : missing folder name here for the stylesheets to work -->
-
 	<link rel="stylesheet" href="css/style.css">
-  <!-- bug 2 : missing folder name here for the stylesheets to work -->
+  <!-- bug 1 : missing folder name here for the stylesheets to work -->
 
   <title>Visit the Ann Arbor Art Museum</title>
-      <!-- BUG 3: misspelled title tag -->
+      <!-- BUG 2: misspelled title tag -->
 </head>
 
 <body>
@@ -25,18 +23,17 @@
       <ul>
         <li><a href="index.html">Home</a></li>
         <li><a href="exhibits.html">Current Exhibits</a></li>
-        <!-- BUG 4: Incorrect filename.The correct page is exhibits.html, not exhibit.html. -->
+        <!-- BUG 3: Incorrect filename.The correct page is exhibits.html, not exhibit.html. -->
         <li><a href="hours.html">Hours and Admission</a></li>
-        <!-- bug 5: missing link tag here -->
        <li class="active"><a href="visit.html">Plan Your Visit</a></li> 
-        <!-- bug 6: missing li tag here -->
+        <!-- bug 4: missing li tag here -->
       </ul>
     </nav>
   </header>
 
   <main>
    <section><h2>Plan Your Visit</h2>
-    <!-- BUG 7: This page has two <h1> elements.For this assignment, use one main <h1> for the page.This heading should be changed to <h2>, or the header structure could be adjusted. -->
+    <!-- BUG 5: This page has two <h1> elements.For this assignment, use one main <h1> for the page.This heading should be changed to <h2>, or the header structure could be adjusted. -->
 
     
       <h3>Getting to the Museum</h3>
@@ -57,9 +54,7 @@
           alt="street view of nickels arcade on a sunny day"
             src="images/Nickels_Arcade,_State_Street,_Ann_Arbor,_MI.jpg"
             width="800">
-            <!-- bug 8 removed.jpg at the end of the file name-->
-
-        <!-- BUG 9: Missing alt attribute. Since this linked image is meaningful, it needs descriptive alt text. -->
+            <!-- bug 6 removed.jpg at the end of the file name-->
         <figcaption>
           Nickels Arcade is one of Ann Arbor’s recognizable pedestrian spaces
           near campus and downtown.
@@ -69,7 +64,7 @@
 
     <section>
       <h2>Exploring Nearby Ann Arbor</h2>
-
+      <!-- bug 7 - did not close h2 tag -->
       <p>
         A museum visit can be part of a larger Ann Arbor outing. Visitors often combine the museum with a walk through Kerrytown, a meal on Main Street, a bookstore visit on State Street, or a walk near the University of Michigan Diag.
       </p>
@@ -84,10 +79,9 @@
         <li>Walk through downtown Ann Arbor before or after your visit.</li>
         <li>Explore Kerrytown shops and the Ann Arbor Farmers Market.</li>
        <li>Visit nearby theaters, galleries, and music venues.</li>
-       <!-- bug 10: missing li tag -->
+       <!-- bug 8: missing li tag -->
         <li>Take a walk near the Huron River or Nichols Arboretum.</li>
       </ul>
-  <!-- BUG 11: ended with ol instead of ul -->
     </section>
 
     <section>
@@ -125,7 +119,7 @@
       <p>
         <strong>Backpacks should be worn on one shoulder or carried by hand to
         help protect artwork and other visitors.</strong></p>
-        <!-- BUG 12: The <strong> element is not closed. It should be closed before the paragraph ends. -->
+        <!-- BUG 9: The <strong> element is not closed. It should be closed before the paragraph ends. -->
     </section>
 
     <section>
@@ -139,7 +133,7 @@
         events.
       </p>
       </section>
-<!-- bug 13 - missing section closing tag -->
+<!-- bug 10 - missing section closing tag -->
 
     <section>
       <h2>Before You Arrive</h2>
@@ -163,7 +157,7 @@
 
   <footer>
     <p>&copy; 2026 Ann Arbor Art Museum</p>
-    <!-- bug 14 copyright symbol isn't correct should be &copy;-->
+    <!-- bug 11 copyright symbol isn't correct should be &copy;-->
 
     <p>
       <a href="mailto:info@annarborartmuseum.example">Email the museum</a>
